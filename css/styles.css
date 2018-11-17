@@ -26,6 +26,10 @@ h4 {
   padding-top: 80px;
 }
 
+.pl30 {
+  padding-left: 30px;
+}
+
 .mr30 {
   margin-right: 30px;
 }
@@ -74,6 +78,23 @@ h4 {
   padding: 0 0 80px 0;
 }
 
+.grey-arrow {
+  color: #DCDCDC;
+  font-size: 3.3em;
+  padding: 120px 0 0 0;
+}
+
+/*link styling*/
+
+.gen-body-link {
+  color: #7C4FF8;
+}
+
+.gen-body-link:hover {
+  color: #7C4FF8;
+  text-decoration: none;
+}
+
 /*button styling*/
 
 .primary-btn {
@@ -85,11 +106,14 @@ h4 {
   text-decoration: none;
   color: #fff;
   white-space: nowrap;
+  transition: 0.3s ease;
 }
 
 .primary-btn:hover{
   color: #fff;
   text-decoration: none;
+  box-shadow: 8px 12px 14px 0 rgba(56, 55, 55, 0.5);
+  background-image: linear-gradient(81deg, #ac77ff, #7442ff);
 }
 
 .secondary-btn {
@@ -101,9 +125,26 @@ h4 {
   text-decoration: none;
   font-weight: 600;
   white-space: nowrap;
+  transition: 0.3s ease;
 }
 
 .secondary-btn:hover{
   color: #7C4FF8;
   text-decoration: none;
+  box-shadow: 8px 12px 14px 0 rgba(56, 55, 55, 0.5);
+  background-image: linear-gradient(74deg, #e9dfff, #cebcff);
+}
+
+/*Bio styling */
+
+.summary {
+  color: #868686;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+.pull-indent {
+  margin-top: 40px;
+  border-left: 3px solid #7C4FF8;
+  color: #868686;
 }
