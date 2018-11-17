@@ -1,11 +1,40 @@
+/*Stylesheet typography organization */
+
 body {
   font-family: 'Roboto', sans-serif;
 }
 
-/*Hero area styling */
+h1 {
+  font-size: 3.3em;
+}
+
+h2 {
+  font-size: 2.827em;
+}
+
+h3 {
+  font-size: 1.999em;
+}
+
+h4 {
+  font-size: 1.414em;
+}
+
+/* Utility classes */
+
+.pt80 {
+  padding-top: 80px;
+}
+
+.mr30 {
+  margin-right: 30px;
+}
+
+/* Hero area styling */
 
 .nav-elements {
   float: right;
+  padding: 30px 0 0 0;
 }
 
 .nav-elements a {
@@ -16,6 +45,7 @@ body {
 
 .nav-elements li {
   display: inline-block;
+  padding: 0 10px 0 10px;
 }
 
 .bg-wrap {
@@ -25,4 +55,55 @@ body {
   background-size: cover;
   max-width: 100%;
   height: 800px;
+}
+
+.name-headline {
+  color: #DCDCDC;
+  padding: 0 0 10px 0;
+}
+
+.name-headline span {
+  color: #7C4FF8;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+}
+
+.subhead-hero {
+  color: #DCDCDC;
+  font-weight: 300;
+  padding: 0 0 80px 0;
+}
+
+/*button styling*/
+
+.primary-btn {
+  padding: 12px 40px 12px 40px;
+  border-radius: 28px;
+  background-image: linear-gradient(261deg, #ac77ff, #7442ff);
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.primary-btn:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.secondary-btn {
+  padding: 12px 40px 12px 40px;
+  border-radius: 28px;
+  background-image: linear-gradient(254deg, #e9dfff, #cebcff);
+  color: #7C4FF8;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.secondary-btn:hover{
+  color: #7C4FF8;
+  text-decoration: none;
 }
