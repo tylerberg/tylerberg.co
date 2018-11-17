@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1440 753" style="enable-background:new 0 0 1440 753;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Path-2_1_);}
+	.st1{fill:url(#Path-3_1_);}
+	.st2{fill:url(#Path-4_1_);}
+	.st3{fill:url(#Path-5_1_);}
+	.st4{fill:url(#Path-7-Copy_1_);}
+	.st5{fill:url(#Path-6_1_);}
+	.st6{fill:url(#Path-7_1_);}
+</style>
+<title>Hero-bg</title>
+<desc>Created with Sketch.</desc>
+<g id="Home-Copy">
+	<g id="Hero-bg" transform="translate(-9.000000, 0.000000)">
+		
+			<linearGradient id="Path-2_1_" gradientUnits="userSpaceOnUse" x1="247.9339" y1="2333.3281" x2="248.9339" y2="2332.511" gradientTransform="matrix(235 0 0 -188 -58266 438676)">
+			<stop  offset="0" style="stop-color:#252525"/>
+			<stop  offset="1" style="stop-color:#3F3F3F"/>
+		</linearGradient>
+		<polygon id="Path-2" class="st0" points="244,0 244,138.4 9,188 9,0 		"/>
+		
+			<linearGradient id="Path-3_1_" gradientUnits="userSpaceOnUse" x1="249.1868" y1="2336.7112" x2="248.2919" y2="2335.9302" gradientTransform="matrix(481 0 0 -139 -119286 324800)">
+			<stop  offset="0" style="stop-color:#646464"/>
+			<stop  offset="1" style="stop-color:#3C3C3C"/>
+		</linearGradient>
+		<polygon id="Path-3" class="st1" points="243,0 243,139 724,39.4 724,0 		"/>
+		
+			<linearGradient id="Path-4_1_" gradientUnits="userSpaceOnUse" x1="247.8677" y1="2367.6228" x2="248.5592" y2="2368.1052" gradientTransform="matrix(206 0 0 -40 -50331 94724)">
+			<stop  offset="0" style="stop-color:#646464"/>
+			<stop  offset="1" style="stop-color:#868484"/>
+		</linearGradient>
+		<polygon id="Path-4" class="st2" points="723,0 723,40 929,0 		"/>
+		
+			<linearGradient id="Path-5_1_" gradientUnits="userSpaceOnUse" x1="249.8214" y1="2326.9771" x2="248.8093" y2="2326.4331" gradientTransform="matrix(1446 0 0 -565 -359805 1314824)">
+			<stop  offset="0" style="stop-color:#4E4E4E"/>
+			<stop  offset="1" style="stop-color:#2D2D2D"/>
+		</linearGradient>
+		<polygon id="Path-5" class="st3" points="9,187.4 9,565 1455,272.5 1455,0 905.4,0 		"/>
+		
+			<linearGradient id="Path-7-Copy_1_" gradientUnits="userSpaceOnUse" x1="249.6835" y1="2328.863" x2="248.6835" y2="2328.4202" gradientTransform="matrix(680 0 0 -343 -168303 798965)">
+			<stop  offset="0" style="stop-color:#888585"/>
+			<stop  offset="1" style="stop-color:#4E4D4D"/>
+		</linearGradient>
+		<polygon id="Path-7-Copy" class="st4" points="777,225.4 1457,69 1449,273.8 777,412 		"/>
+		
+			<linearGradient id="Path-6_1_" gradientUnits="userSpaceOnUse" x1="248.5549" y1="2329.4746" x2="249.6884" y2="2329.8572" gradientTransform="matrix(478 0 0 -288 -118773 671541)">
+			<stop  offset="0" style="stop-color:#3C3C3C"/>
+			<stop  offset="1" style="stop-color:#646464"/>
+		</linearGradient>
+		<polygon id="Path-6" class="st5" points="9,564.1 9,753 487,656.3 487,465 		"/>
+		
+			<linearGradient id="Path-7_1_" gradientUnits="userSpaceOnUse" x1="249.7514" y1="2328.2551" x2="248.7514" y2="2327.7734" gradientTransform="matrix(970 0 0 -390.6318 -240808 909858.25)">
+			<stop  offset="0" style="stop-color:#868484"/>
+			<stop  offset="1" style="stop-color:#646464"/>
+		</linearGradient>
+		<polygon id="Path-7" class="st6" points="482,465.9 1452,266 1452,468 485.3,656.6 		"/>
+	</g>
+</g>
+</svg>
