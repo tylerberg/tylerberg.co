@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="753px" viewBox="0 0 1440 753" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>cpme-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="98.2884754%" y2="80.3026897%" id="linearGradient-1">
+            <stop stop-color="#4178E7" offset="0%"></stop>
+            <stop stop-color="#477EEC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="100%" x2="89.1202277%" y2="22.2360599%" id="linearGradient-2">
+            <stop stop-color="#477EEC" offset="0%"></stop>
+            <stop stop-color="#5288F5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="101.205512%" y1="19.1068557%" x2="0%" y2="73.4874486%" id="linearGradient-3">
+            <stop stop-color="#1B52C3" offset="0%"></stop>
+            <stop stop-color="#5087F7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="19.7634892%" x2="0%" y2="64.0444488%" id="linearGradient-4">
+            <stop stop-color="#558AF6" offset="0%"></stop>
+            <stop stop-color="#5087F7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="3.97181427%" y1="59.9327756%" x2="113.236711%" y2="23.0595886%" id="linearGradient-5">
+            <stop stop-color="#5187F7" offset="0%"></stop>
+            <stop stop-color="#5188F7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="2.22044605e-14%" y1="74.481616%" x2="100%" y2="26.3055804%" id="linearGradient-6">
+            <stop stop-color="#3D74E4" offset="0%"></stop>
+            <stop stop-color="#548AF6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="4.87396813%" y1="50%" x2="72.8132069%" y2="2.61642704%" id="linearGradient-7">
+            <stop stop-color="#2E65D6" offset="0%"></stop>
+            <stop stop-color="#5188F7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Home-Page-States" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CPME-Case-Study">
+            <g id="cpme-bg">
+                <polygon id="Path-2" fill="url(#linearGradient-1)" points="235 -1.42108547e-14 235 138.449159 0 188 0 -1.42108547e-14"></polygon>
+                <polygon id="Path-3" fill="url(#linearGradient-2)" points="234 0 234 139 715 39.376952 715 0"></polygon>
+                <polygon id="Path-5" fill="url(#linearGradient-3)" points="0 187.352823 0 565 1446 272.541404 1446 2.45029691e-15 896.418601 0"></polygon>
+                <polygon id="Path-7-Copy" fill="url(#linearGradient-4)" points="768 225.35455 1448 69 1440.02263 273.840404 768 412"></polygon>
+                <polygon id="Path-6" fill="url(#linearGradient-5)" points="0 564.063579 0 753 478 656.29904 478 465"></polygon>
+                <polygon id="Path-7" fill="url(#linearGradient-6)" points="473 465.932435 1443 266 1443 468.048016 477.933777 656.313705"></polygon>
+                <polygon id="Path-4" fill="url(#linearGradient-7)" points="714 0 714 40 920 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
