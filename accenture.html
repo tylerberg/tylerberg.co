@@ -9,12 +9,14 @@
   	<link rel="stylesheet" href="css/bootstrap.css">
   	<link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <!--link to google font-->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
     <!--links to icon font-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <title>Tyler Berg, Interactive Designer</title>
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
   </head>
 
 <body>
@@ -25,18 +27,18 @@
         <div class="col-md-12">
           <nav>
             <ul class="nav-elements">
-              <li><a href="index.html#about">About</a></li>
-              <li><a href="index.html#projects">Work</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a data-scroll href="index.html#about">About</a></li>
+              <li><a data-scroll href="index.html#projects">Work</a></li>
+              <li><a data-scroll href="#contact">Contact</a></li>
             </ul>
           </nav>
         </div>
-        <div class="col-md-6 pt80">
+        <div class="col-md-6 animated fadeInLeft pt80">
           <h1 class="case-title">Global Courier<br>Tracking System</h1>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row animated fadeInLeft">
         <div class="col-md-2">
           <p class="case-category">Client</p>
           <p class="case-value">Accenture <br>Federal Services</p>
@@ -50,7 +52,7 @@
           <p class="case-value">Enterprise-Level Web Application</p>
         </div>
 
-        <div class="col-md-6 afs-hero">
+        <div class="col-md-6 afs-hero animated fadeInRight">
           <img src="images/afs-hero.png">
         </div>
       </div>
@@ -145,6 +147,10 @@
 <!--js links-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
+
+<script>
+var scroll = new SmoothScroll('a[href*="#"]');
+</script>
 
 </body>
 </html>
