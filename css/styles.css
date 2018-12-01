@@ -101,6 +101,12 @@ h4 {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  transition: 0.2s;
+  padding-bottom: 2px;
+}
+
+.nav-elements a:hover {
+  border-bottom: 1px solid #fff;
 }
 
 .nav-elements li {
@@ -155,19 +161,43 @@ h4 {
 
 .primary-btn {
   padding: 12px 40px 12px 40px;
-  border-radius: 28px;
-  background-image: linear-gradient(261deg, #ac77ff, #7442ff);
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
+  border-radius: 28px;
+  position: relative;
+  background-image: linear-gradient(261deg, #ac77ff, #7442ff);
+  -webkit-backface-visibility: hidden;
+  z-index: 1;
   white-space: nowrap;
-  transition: 0.3s ease;
 }
 
 .primary-btn:hover{
   color: #fff;
   text-decoration: none;
-  box-shadow: 8px 12px 14px 0 rgba(56, 55, 55, 0.5);
+  opacity: 1;
+}
+
+.primary-btn:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 28px;
   background-image: linear-gradient(81deg, #ac77ff, #7442ff);
+  transition: opacity 0.5s ease-out;
+  z-index: 2;
+  opacity: 0;
+}
+
+.primary-btn:hover:after {
+  opacity: 1;
+}
+
+.primary-btn span {
+  position: relative;
+  z-index: 3;
 }
 
 .secondary-btn {
@@ -175,11 +205,41 @@ h4 {
   border-radius: 28px;
   background-image: linear-gradient(254deg, #e9dfff, #cebcff);
   color: #7C4FF8;
+  position: relative;
+  -webkit-backface-visibility: hidden;
+  z-index: 1;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 600;
   white-space: nowrap;
-  transition: 0.3s ease;
+}
+
+.secondary-btn:hover{
+  color: #7C4FF8;
+  text-decoration: none;
+}
+
+.secondary-btn:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 28px;
+  background-image: linear-gradient(74deg, #fff, #cebcff);
+  transition: opacity 0.5s ease-out;
+  z-index: 2;
+  opacity: 0;
+}
+
+.secondary-btn:hover:after {
+  opacity: 1;
+}
+
+.secondary-btn span {
+  position: relative;
+  z-index: 3;
 }
 
 .tertiary-btn {
@@ -192,19 +252,38 @@ h4 {
   text-decoration: none;
   font-weight: 400;
   white-space: nowrap;
-  transition: 0.3s ease;
+  position: relative;
+  -webkit-backface-visibility: hidden;
+  z-index: 1;
+  transition: 0.2s ease;
 }
 
 .tertiary-btn:hover {
   text-decoration: none;
-  color: #7B49FF;
+  color: #fff;
 }
 
-.secondary-btn:hover{
-  color: #7C4FF8;
-  text-decoration: none;
-  box-shadow: 8px 12px 14px 0 rgba(56, 55, 55, 0.5);
-  background-image: linear-gradient(74deg, #e9dfff, #cebcff);
+.tertiary-btn:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 28px;
+  background-image: linear-gradient(81deg, #ac77ff, #7442ff);
+  transition: opacity 0.5s ease-out;
+  z-index: 2;
+  opacity: 0;
+}
+
+.tertiary-btn:hover:after {
+  opacity: 1;
+}
+
+.tertiary-btn span {
+  position: relative;
+  z-index: 3;
 }
 
 /*Bio styling */
@@ -339,11 +418,14 @@ footer {
 footer a {
   border-bottom: 1px solid #fff;
   color: #fff;
+  transition: 0.2s ease;
 }
 
 footer a:hover {
+  border-bottom: 1px solid #000000;
+  color: #000000;
   text-decoration: none;
-  color: #fff;
+  font-weight: 900;
 }
 
 
