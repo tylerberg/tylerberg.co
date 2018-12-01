@@ -2,7 +2,12 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
+
+/* ::selection {
+  background-color: #a786ff;
+} */
 
 h1 {
   font-size: 3.3em;
@@ -119,13 +124,13 @@ h4 {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  max-width: 100%;
+  width: 100%;
   height: 800px;
 }
 
 .name-headline {
   color: #DCDCDC;
-  padding: 0 0 10px 0;
+  padding: 80px 0 10px 0;
 }
 
 .name-headline span {
@@ -150,10 +155,11 @@ h4 {
 
 .gen-body-link {
   color: #7C4FF8;
+  transition: 0.2s ease-out;
 }
 
 .gen-body-link:hover {
-  color: #7C4FF8;
+  color: #2e0b90;
   text-decoration: none;
 }
 
@@ -292,6 +298,7 @@ h4 {
   color: #868686;
   font-weight: 300;
   line-height: 2rem;
+  margin-top: 50px;
 }
 
 .pull-indent {
@@ -518,4 +525,60 @@ footer a:hover {
   max-width: 100%;
   height: 2250px;
   padding: 40px 0 0 0;
+}
+
+/*MEDIA QUERIES BEGIN HERE*/
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media (max-width: 414px) {
+    .name-headline {
+      padding-top: 40px;
+    }
+    .subhead-hero {
+      padding-bottom: 50px;
+    }
+    .grey-arrow {
+      padding-top: 60px;
+    }
+    .summary {
+      margin-top: 0;
+    }
+    .tyler {
+      padding: 30px 0 70px 0;
+    }
+    .work-wrap {
+      height: auto;
+      background-image: none;
+    }
+    .projects-header {
+      margin-top: 50px;
+    }
+    .afs-preview img {
+      left: -40px;
+      width: 540px;
+    }
+    .brunch-preview {
+      height: 350px;
+    }
+    .brunch-preview img {
+      width: 350px;
+      position: absolute;
+      bottom: 20px;
+      left: 30px;
+    }
+    hr {
+      padding-bottom: 25px;
+    }
+    .h-inn-preview img {
+      width: 460px;
+      left: -15px;
+    }
+    .h-inn-preview {
+      height: 410px;
+    }
+    .pseudo-foot {
+      margin-top: 120px;
+    }
 }
