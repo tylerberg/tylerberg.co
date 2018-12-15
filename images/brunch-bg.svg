@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1440px" height="753px" viewBox="0 0 1440 753" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
     <title>Group</title>
     <desc>Created with Sketch.</desc>
     <defs>
@@ -35,14 +35,14 @@
     </defs>
     <g id="Home-Page-States" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Brunch-Case-Study">
-            <g id="Group" transform="translate(-7.000000, -2.000000)">
-                <polygon id="Path-2" fill="url(#linearGradient-1)" points="242 2 242 140.449159 7 190 7 2"></polygon>
-                <polygon id="Path-3" fill="url(#linearGradient-2)" points="241 2 241 141 722 41.376952 722 2"></polygon>
-                <polygon id="Path-5" fill="url(#linearGradient-3)" points="0 190.352823 0 568 1446 275.541404 1446 3 896.418601 3"></polygon>
-                <polygon id="Path-7-Copy" fill="url(#linearGradient-4)" points="775 227.35455 1455 71 1447.02263 275.840404 775 414"></polygon>
-                <polygon id="Path-6" fill="url(#linearGradient-5)" points="7 566.063579 7 755 485 658.29904 485 467"></polygon>
-                <polygon id="Path-7" fill="url(#linearGradient-6)" points="480 467.932435 1450 268 1450 470.048016 485.037131 658"></polygon>
-                <polygon id="Path-4" fill="url(#linearGradient-7)" points="721 0 721 39.5706963 927 0"></polygon>
+            <g id="Group" transform="translate(-7.000000, -7.000000)">
+                <polygon id="Path-2" fill="url(#linearGradient-1)" points="242 7 242 145.449159 7 195 7 7"></polygon>
+                <polygon id="Path-3" fill="url(#linearGradient-2)" points="241 7 241 146 722 46.376952 722 7"></polygon>
+                <polygon id="Path-5" fill="url(#linearGradient-3)" points="0 194.316379 0 586 1446 282.671262 1446 2.54136989e-15 896.418601 0"></polygon>
+                <polygon id="Path-7-Copy" fill="url(#linearGradient-4)" points="775 232.35455 1455 76 1447.02263 280.840404 775 419"></polygon>
+                <polygon id="Path-6" fill="url(#linearGradient-5)" points="7 571.063579 7 760 485 663.29904 485 472"></polygon>
+                <polygon id="Path-7" fill="url(#linearGradient-6)" points="480 472.932435 1450 273 1450 475.048016 485.037131 663"></polygon>
+                <polygon id="Path-4" fill="url(#linearGradient-7)" points="721 5 721 44.5706963 927 5"></polygon>
             </g>
         </g>
     </g>
