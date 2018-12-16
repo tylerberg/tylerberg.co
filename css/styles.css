@@ -25,6 +25,14 @@ h4 {
   font-size: 1.414em;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 /* Utility classes */
 
 .pt150 {
@@ -61,6 +69,10 @@ h4 {
 
 .pt20 {
   padding-top: 20px;
+}
+
+.pl10 {
+  padding-left: 10px;
 }
 
 .pl0 {
@@ -124,6 +136,28 @@ h4 {
   padding: 0 10px 0 10px;
 }
 
+.nav-elements-blue {
+  float: right;
+  padding: 30px 0 0 0;
+}
+
+.nav-elements-blue a {
+  color: #050082;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.2s;
+  padding-bottom: 2px;
+}
+
+.nav-elements-blue a:hover {
+  border-bottom: 1px solid #050082;
+}
+
+.nav-elements-blue li {
+  display: inline-block;
+  padding: 0 10px 0 10px;
+}
+
 .bg-wrap {
   background-image: url("../images/hero-bg.svg");
   background-repeat: no-repeat;
@@ -152,6 +186,12 @@ h4 {
 
 .grey-arrow {
   color: #DCDCDC;
+  font-size: 3.3em;
+  padding: 120px 0 0 0;
+}
+
+.blue-arrow {
+  color: #050082;
   font-size: 3.3em;
   padding: 120px 0 0 0;
 }
@@ -500,6 +540,21 @@ footer a:hover {
   text-align: center;
 }
 
+.brunch-upnext {
+  box-shadow: 4px 4px 27px 0 rgba(171, 171, 171, 0.5);
+  background-image: linear-gradient(99deg, #FD9F6F, #F97653);
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  transition: 0.25s ease-in;
+}
+
+.brunch-upnext:hover {
+  box-shadow: 20px 19px 27px 0 rgba(171, 171, 171, 0.5);
+  transform: translateY(-2px);
+}
+
 /*Brunch*/
 
 .brunch-wrap {
@@ -541,6 +596,57 @@ footer a:hover {
   max-width: 100%;
   height: 2250px;
   padding: 40px 0 0 0;
+}
+
+/*HUMMINGBIRD CASE STUDY STYLING */
+
+.h-inn-wrap {
+  background-image: url("../images/h-inn-bg.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  max-width: 100%;
+  height: 800px;
+}
+
+.case-title-blue {
+  color: #050082;
+  padding: 0 0 30px 0;
+}
+
+.case-category-blue {
+  font-weight: 500;
+  color: #050082;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.case-value-blue {
+  color: #050082;
+  font-weight: 300;
+}
+
+.h-inn-hero img{
+  width: 570px;
+  position: absolute;
+  right: 0;
+  top: -170px;
+}
+
+.h-inn-blue {
+  color: #050082;
+}
+
+.h-inn-link {
+  color: #050082;
+  transition: 0.2s;
+}
+
+.h-inn-link:hover {
+  text-decoration: none;
+  color: #050082;
+  border-bottom: 1px solid #050082;
 }
 
 /*MEDIA QUERIES BEGIN HERE*/
