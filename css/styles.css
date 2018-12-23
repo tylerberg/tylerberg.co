@@ -35,6 +35,10 @@ a:hover {
 
 /* Utility classes */
 
+.mt170 {
+  margin-top: 170px;
+}
+
 .pt150 {
   padding-top: 150px;
 }
@@ -156,6 +160,10 @@ a:hover {
 .nav-elements-blue li {
   display: inline-block;
   padding: 0 10px 0 10px;
+}
+
+.button-pad {
+  margin-right: 30px;
 }
 
 .bg-wrap {
@@ -527,21 +535,21 @@ hr {
 }
 
 .afs-preview {
-  background-image: linear-gradient(314deg, #a5c1fb, #3c7af6);
+  background-image: linear-gradient(314deg, #A5C1FB, #3C7AF6);
   height: 480px;
   z-index: 1;
   position: relative;
 }
 
 .afs-preview img {
-  width: 650px;
+  width: 530px;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 20px;
+  left: 20px;
 }
 
 .brunch-preview {
-  background-image: linear-gradient(314deg, #f74f2485, #fc874a);
+  background-image: linear-gradient(314deg, #FF6A31, #FFB86B);
   height: 480px;
   z-index: 1;
   position: relative;
@@ -845,6 +853,34 @@ hr {
 
 /* Portrait and Landscape */
 @media (max-width: 414px) {
+    .primary-btn, .secondary-btn, .tertiary-btn {
+      padding: 12px 30px 12px 30px;
+    }
+
+    .nav-elements a {
+      font-size: 0.8em;
+    }
+
+    .pb0-mobile {
+      padding-bottom: 0;
+    }
+
+    h1 {
+      font-size: 2.7em;
+    }
+
+    p {
+      font-size: 0.9em;
+    }
+
+    .mobile-top-pad {
+      padding-top: 20px;
+    }
+
+    .button-pad {
+      margin-right: 15px;
+    }
+
     .name-headline {
       padding-top: 40px;
     }
@@ -855,7 +891,7 @@ hr {
       padding-top: 60px;
     }
     .summary {
-      margin-top: 0;
+      margin-top: -50px;
     }
     .tyler {
       padding: 30px 0 70px 0;
@@ -891,6 +927,6 @@ hr {
       height: 410px;
     }
     .pseudo-foot {
-      margin-top: 120px;
+      margin-top: 50px;
     }
 }
