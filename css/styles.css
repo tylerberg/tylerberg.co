@@ -43,6 +43,10 @@ a:hover {
   padding-top: 150px;
 }
 
+.mt100 {
+  margin-top: 100px;
+}
+
 .mt80 {
   margin-top: 80px;
 }
@@ -542,10 +546,14 @@ hr {
 }
 
 .afs-preview img {
-  width: 530px;
+  width: 540px;
   position: absolute;
-  bottom: 20px;
+  bottom: 5px;
   left: 20px;
+}
+
+.full-width {
+  width: 100%;
 }
 
 .brunch-preview {
@@ -556,10 +564,10 @@ hr {
 }
 
 .brunch-preview img {
-  width: 550px;
+  width: 490px;
   position: absolute;
-  bottom: 0;
-  left: -20px;
+  bottom: 25px;
+  left: 40px;
 }
 
 .h-inn-preview {
