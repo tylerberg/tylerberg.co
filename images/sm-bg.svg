@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="753px" viewBox="0 0 1440 753" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-2.22044605e-14%" y1="2.22044605e-14%" x2="94.5727637%" y2="73.9484631%" id="linearGradient-1">
+            <stop stop-color="#8E81F4" offset="0%"></stop>
+            <stop stop-color="#8163E6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="100%" x2="87.4460038%" y2="23.6969431%" id="linearGradient-2">
+            <stop stop-color="#7F5FE4" offset="0%"></stop>
+            <stop stop-color="#8B7AF1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="101.205512%" y1="19.1068557%" x2="9.23107902%" y2="68.5273279%" id="linearGradient-3">
+            <stop stop-color="#5D15C1" offset="0%"></stop>
+            <stop stop-color="#8771ED" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="5.13693902%" y1="61.7697629%" x2="100%" y2="19.7634892%" id="linearGradient-4">
+            <stop stop-color="#703FD5" offset="0%"></stop>
+            <stop stop-color="#9761EB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="3.97181427%" y1="59.9327756%" x2="100%" y2="27.6552249%" id="linearGradient-5">
+            <stop stop-color="#8B79F1" offset="0%"></stop>
+            <stop stop-color="#815EE3" offset="100%"></stop>
+            <stop stop-color="#815EE3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="2.22044605e-14%" y1="74.481616%" x2="100%" y2="26.3055804%" id="linearGradient-6">
+            <stop stop-color="#7C59E1" offset="0%"></stop>
+            <stop stop-color="#B891F3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="4.87396813%" y1="50%" x2="69.8641193%" y2="4.67324007%" id="linearGradient-7">
+            <stop stop-color="#703FD5" offset="0%"></stop>
+            <stop stop-color="#662ACB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Home-Page-States" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Supply-Management-Case-Study-">
+            <g id="Group" transform="translate(0.000000, -2.000000)">
+                <polygon id="Path-2" fill="url(#linearGradient-1)" points="235 2 235 140.449159 0 190 0 2"></polygon>
+                <polygon id="Path-3" fill="url(#linearGradient-2)" points="234 2 234 141 715 41.376952 715 2"></polygon>
+                <polygon id="Path-5" fill="url(#linearGradient-3)" points="0 189.352823 0 567 1446 274.541404 1446 2 896.418601 2"></polygon>
+                <polygon id="Path-7-Copy" fill="url(#linearGradient-4)" points="768 227.35455 1448 71 1440.02263 275.840404 768 414"></polygon>
+                <polygon id="Path-6" fill="url(#linearGradient-5)" points="0 566.063579 0 755 478 658.29904 478 467"></polygon>
+                <polygon id="Path-7" fill="url(#linearGradient-6)" points="473 467.932435 1443 268 1443 470.048016 478.037131 658"></polygon>
+                <polygon id="Path-4" fill="url(#linearGradient-7)" points="714 0 714 40.3014121 920 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
