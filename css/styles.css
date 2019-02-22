@@ -915,6 +915,20 @@ hr {
   padding: 40px 0 0 0;
 }
 
+.brunch-trio-wrap {
+  background-color: #405182;
+  background-image: url("../images/brunch-ipads.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 450px;
+  background-size: 1000px;
+}
+
+.br-ss img{
+  width: 350px;
+  box-shadow: 4px 4px 27px 0 rgba(171, 171, 171, 0.5);
+}
+
 /*HUMMINGBIRD CASE STUDY STYLING */
 
 .h-inn-wrap {
