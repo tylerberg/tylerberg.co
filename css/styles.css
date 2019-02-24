@@ -876,6 +876,9 @@ hr {
   transform: translateY(-2px);
 }
 
+
+
+
 /*Brunch*/
 
 .brunch-wrap {
@@ -925,6 +928,20 @@ hr {
   background-repeat: no-repeat;
   background-position: top;
   height: 450px;
+  background-size: 1000px;
+}
+
+/* .brunch-revised img {
+  width: 1000px;
+  padding-bottom: 30px;
+} */
+
+.brunch-revised-wrap {
+  background-color: #405182;
+  background-image: url("../images/brunch-revised-group.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 800px;
   background-size: 1000px;
 }
 
@@ -1039,6 +1056,30 @@ hr {
 
 .sm-purp {
   color: #5300B7;
+}
+
+.sm-wf-screenshot img{
+  width: 350px;
+  box-shadow: 4px 4px 27px 0 rgba(171, 171, 171, 0.5);
+  margin-bottom: 10px;
+}
+
+.sm-home-wrap {
+  background-color: #5300b74d;
+  background-image: url("../images/sm-home-duo.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 500px;
+  background-size: 1100px;
+}
+
+.sm-review-wrap {
+  background-color: #5300b74d;
+  background-image: url("../images/sm-review-trio.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 550px;
+  background-size: 1000px;
 }
 
 /*MEDIA QUERIES BEGIN HERE*/

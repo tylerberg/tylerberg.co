@@ -32,7 +32,7 @@
             <ul class="nav-elements">
               <li><a data-scroll href="index.html#about">About</a></li>
               <li><a data-scroll href="index.html#projects">Work</a></li>
-              <li><a href="gdes210.html">Teaching</a></li>
+              <li><a href="http://tylerberg.co/gdes210/" target="_blank">Teaching</a></li>
               <li><a data-scroll href="#contact">Contact</a></li>
             </ul>
           </nav>
@@ -75,7 +75,7 @@
         <p class="sm-purp sm-subhead">The Problem</p>
         <h3 class="sm-purp pb20">How does one of the largest logistics companies in the world keep track of thousands of supply management requests – while providing a method for users to submit new ones? </h3>
         <p class="grey lg-line-sp">There’s something rewarding about using design in one of the areas where it is needed the most: archaic government workflows. It might sound mundane in nature, but organizing upwards of a thousand employee-side supply management requests is no joke.</p>
-        <p class="grey lg-line-sp"> Our design and development teams worked closely with Accenture Federal Services to create an application for this government agency’s employees to submit and subsequently track the progress of a supply management business request. Hosted on the ServiceNow platform, the new application would give users the ability see the status of a request from its earliest stages of a simple business need to a signed scope of work. Additionally, higher-up managers would now have the ability to review outstanding requests and approve them.   </p>
+        <p class="grey lg-line-sp"> Our design and development teams worked closely with Accenture Federal Services to create an application for this government agency’s employees to submit and subsequently track the progress of a supply management business request. Hosted on the ServiceNow platform, the new application would give users the ability see the status of a request from its earliest stages of a simple business need to a signed scope of work. Additionally, higher-up managers would now have the ability to review outstanding requests and approve them. </p>
       </div>
     </div>
   </div>
@@ -90,37 +90,39 @@
       </div>
 
       <div class="col-md-8 offset-md-1 grey pt20">
-        <p class="lg-line-sp">Since the creation of this application would affect the workflow and daily lives of thousands of users all over the world, it was imperative that we understood the needs of the couriers and officers directly. </p>
-        <p class="lg-line-sp">Our UX team worked closely with Accenture's business analysts and client-side representatives to create user surveys – and conduct interviews to hear from users directly on what they needed most. We leveraged this feedback into a wireframe prototype that addressed both mobile and desktop workflows.</p>
-        <p class="lg-line-sp">Since most of the couriers' time is spent traveling across the globe, a large priority for our team was crafting an experience that felt just as natural and seamless on a government-issued mobile device as it might feel on a laptop or tablet. </p>
-        <p class="lg-line-sp"> After conducting an extensive user research process, our results led us to creating six main functionalities to best address user needs:</p>
-      </div>
+        <p class="lg-line-sp">From day one, we worked hand in hand with AFS’s business analysts to understand the users’ problems first. Based on the feedback we received from users, our main priorities while creating our wireframe prototype and enhancing the user experience resided in a few areas: </p>
+        <ul class="lg-line-sp">
+          <li>The ability for users to visualize exactly where in the approval process their request was.</li>
+          <li>Easily enter the correct details when submitting a request + knowing exactly what to submit, eliminating any sort of learning curve.</li>
+          <li>Managers being able to sift through requests awaiting their review and eventual approval all in one place. </li>
+        </ul>
+        <p class="lg-line-sp">One of the biggest challenges in the project was simplifying the user flow without altering the jargon, or company vernacular, of the agency's supply management team. There was a fine line between organizing the user flow and changing the names of existing items, which would create a higher learning curve for the new users.</p>
     </div>
 
     <div class="row mt50">
-      <div class="col-md-4 wf-screenshot">
-        <img src="images/afs-wf-home.png">
-        <p class="img-caption grey">High level view of recent user activity <br>and route inconsistencies</p>
+      <div class="col-md-4 sm-wf-screenshot">
+        <img src="images/sm-home.png">
+        <p class="img-caption grey">Home page detailing pending requests, pending scope of work reviews, and open requests</p>
       </div>
-      <div class="col-md-4 wf-screenshot">
-        <img src="images/afs-eta.png">
-        <p class="img-caption grey">Itinerary planning tool</p>
+      <div class="col-md-4 sm-wf-screenshot">
+        <img src="images/sm-form-start.png">
+        <p class="img-caption grey">Beginning of employee form to submit a request. Walks user through necessary steps from start to finish.</p>
       </div>
-      <div class="col-md-4 wf-screenshot">
-        <img src="images/afs-sb.png">
-        <p class="img-caption grey">Calendar-style view of scheduled trips</p>
+      <div class="col-md-4 sm-wf-screenshot">
+        <img src="images/sm-form-summary.png">
+        <p class="img-caption grey">Employee summary view, once form has been completed. User can review the content of each individual section prior to submisison. </p>
       </div>
-      <div class="col-md-4 wf-screenshot">
-        <img src="images/afs-leave.png">
-        <p class="img-caption grey">List view of employees on leave</p>
+      <div class="col-md-4 sm-wf-screenshot">
+        <img src="images/sm-all-requests.png">
+        <p class="img-caption grey">Manager level view of all employee form requests.</p>
       </div>
-      <div class="col-md-4 wf-screenshot">
-        <img src="images/afs-trips.png">
-        <p class="img-caption grey"> List view of past, future, and cancelled trips </p>
+      <div class="col-md-4 sm-wf-screenshot">
+        <img src="images/sm-review-requests.png">
+        <p class="img-caption grey">Manager-level view of specific employee form requests.</p>
       </div>
-      <div class="col-md-4 wf-screenshot">
-        <img src="images/afs-kb.png">
-        <p class="img-caption grey">Knowledge center to help answer potential <br> user questions more efficiently</p>
+      <div class="col-md-4 sm-wf-screenshot">
+        <img src="images/sm-dashboard.png">
+        <p class="img-caption grey">Dashboard view of project metrics and statuses.</p>
       </div>
     </div>
 
@@ -133,41 +135,32 @@
     </div>
 
     <div class="col-md-8 offset-md-1 grey pt20">
-      <p class="lg-line-sp">A large portion of our design team’s focus was centered around 508 compliance. Given that we were designing a government application, it was imperative that we abided by accessibility laws. We made sure the entirety of the application maintained a high enough visual contrast ratio that made it usable for users with different variations of color blindness. </p>
-      <p class="lg-line-sp">Another critical priority was creating a robust design system that would not only work for current use cases, but would accommodate future enhancements and additions, too. This meant designing elements with a flexible and modular approach. </p>
-    </div>
-
-    <div class="col-md-12 pt20">
-      <img class="full-width" src="images/afs-ui-1.png">
+      <p class="lg-line-sp">Throughout each step of designing the UI, we made sure that we included subtle details like tooltips and lightboxes when needed – to increase user self sufficiency and give users the ability to answer questions on their own. </p>
+      <p class="lg-line-sp">508 compliance drove a large part of the visual design decision making. It was critical that we included a high color contrast ratio throughout the design, included tooltips and descriptions where applicable, and included alt text within the HTML. Since the product was being developed for such a large government agency, our goal was to be as accessible as possible in the product's design.</p> 
     </div>
   </div>
 </div>
+</div>
+
+<div class="sm-home-wrap mt30">
+</div>
+
 
 <div class="container">
   <div class="row mt50">
     <div class="col-md-8 offset-md-4 grey">
-      <p class="lg-line-sp">We worked through each design sprint with an agile-like mindset. I would design the interface of new client asks in Sketch, prototype them in InVision, and move quickly to HTML and CSS, where I utilized a combination of Bootstrap and Flexbox to create a modular structure that would allow for different column and row combinations (depending on the user’s home post). We wanted to make sure that the layout would adjust naturally based on different types of content shown across the hundreds of posts worldwide. </p>
-      <p class="lg-line-sp">This meant that I had to structure the CSS in a very modular way. The stylesheets had to be created with as many “utility classes” as possible, rather than relying excessively on “component classes.” This was done so that our codebase could be as scalable, consistent, and maintainable as possible – not only for the entirety of the project, but for future enhancements down the line as well. </p>
-    </div>
-    <div class="col-md-12 pt20">
-      <img class="full-width" src="images/afs-ui-3.png">
+      <p class="lg-line-sp">We relied on subtle, visual cues to indicate things like required fields, completed and unfinished sections, and quick jumps to summary sections via anchor links in a fixed side navigation.</p>
+      <p class="lg-line-sp">One of the most important features in the application was the request progress bar: a way for managers to be able to quickly visually identify where in the process an employee's request was – and if the request was assigned to the manager directly. </p>
     </div>
   </div>
+</div>
 
-  <!-- user testing -->
-    <div class="row mt50">
-      <div class="col-md-3 sm-purp">
-        <p class="sm-subhead">Phase 3</p>
-        <h3>Development and QA</h3>
-      </div>
-
-      <div class="col-md-8 offset-md-1 grey pt20">
-        <p class="lg-line-sp">Once the HTML and CSS were successfully integrated into ServiceNow, our design team and Accenture’s business analysts tested the product with initial focus groups to give the new application a trial run with real users, in real time. Based on the feedback we got from testing with users in several different countries, we made iterations to our live instance that addressed those issues before we completely went live. </p>
-      </div>
-    </div>
+  <div class="sm-review-wrap mt30">
+  </div>
 
 
   <!--up next-->
+  <div class="container">
     <a href="accenture.html"><div class="row mt100">
       <div class="col-md-12 afs-upnext">
         <p class="sm-subhead">Next Case Study</p>
