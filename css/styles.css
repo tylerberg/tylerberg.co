@@ -768,7 +768,7 @@ hr {
   background-size: 910px;
 }
 
-.case-intro {
+.case-intro, .case-intro-sm, .case-intro-afs {
   margin-bottom: 50px;
 }
 
@@ -791,7 +791,7 @@ hr {
 }
 
 .afs-hero img{
-  width: 300px;
+  width: 270px;
   position: absolute;
   right: 90px;
   top: -150px;
@@ -802,11 +802,11 @@ hr {
 }
 
 .wf-screenshot img{
-  width: 350px;
+  width: 100%;
 }
 
 .wf-screenshot-lg img{
-  width: 540px;
+  width: 100%;
 }
 
 .img-caption {
@@ -948,7 +948,7 @@ hr {
 }
 
 .br-ss img{
-  width: 350px;
+  width: 100%;
   box-shadow: 4px 4px 27px 0 rgba(171, 171, 171, 0.5);
 }
 
@@ -965,7 +965,7 @@ hr {
 
 .case-title-blue {
   color: #050082;
-  padding: 0 0 30px 0;
+  padding: 80px 0 30px 0;
 }
 
 .case-category-blue {
@@ -984,7 +984,7 @@ hr {
 .h-inn-hero img{
   width: 570px;
   position: absolute;
-  right: 0;
+  right: -110px;
   top: -170px;
 }
 
@@ -1061,7 +1061,7 @@ hr {
 }
 
 .sm-wf-screenshot img{
-  width: 350px;
+  width: 100%;
   box-shadow: 4px 4px 27px 0 rgba(171, 171, 171, 0.5);
   margin-bottom: 10px;
 }
@@ -1089,12 +1089,16 @@ hr {
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
 /* Portrait and Landscape */
-@media (max-width: 414px) {
+@media (max-width: 470px) {
     .primary-btn, .secondary-btn, .tertiary-btn {
       padding: 12px 30px 12px 30px;
     }
 
     .nav-elements a {
+      font-size: 0.8em;
+    }
+
+    .nav-elements-blue a {
       font-size: 0.8em;
     }
 
@@ -1188,12 +1192,24 @@ hr {
       margin-bottom: 50px;
     }
 
-    .case-title {
+    .case-intro-sm {
+      margin: 110px 0 50px 0;
+    }
+
+    .case-title, .case-title-blue {
       padding-top: 35px;
     }
 
     .wf-screenshot img {
-      width: 350px;
+      width: 100%;
+    }
+
+    .sm-wf-screenshot img {
+      width: 100%;
+    }
+
+    .sm-wf-screenshot {
+      margin: 15px;
     }
 
     .afs-ui-wrap {
@@ -1213,11 +1229,11 @@ hr {
 
     .brunch-hero img {
       width: 360px;
-      right: 30px;
+      left: 10px;
       top: 30px;
     }
 
-    .blue-btn-ghost {
+    .blue-btn-ghost, .orange-btn-ghost, .navy-btn-ghost, .purp-btn-ghost {
       padding: 12px 25px 12px 25px;
     }
 
@@ -1236,6 +1252,55 @@ hr {
     }
 
     .h-inn-upnext {
+      margin: 15px;
+    }
+
+    .h-inn-hero img {
+      width: 460px;
+      right: -60px;
+      top: -10px;
+    }
+
+    .logo-ss img {
+      width: 380px;
+    }
+
+    .final-logo img {
+      width: 210px;
+      padding-bottom: 70px;
+    }
+
+    .hi-web img {
+      width: 700px;
+    }
+
+    .sm-upnext {
+      margin: 15px;
+    }
+
+    .sm-hero img {
+      width: 360px;
+      right: 10px;
+      top: -10px;
+    }
+
+    .mobile-pad {
+      margin: 2px;
+    }
+
+    .sm-home-wrap {
+      background-position: right;
+      height: 370px;
+      background-size: 630px;
+    }
+
+    .sm-review-wrap {
+      background-position: center;
+      height: 450px;
+      background-size: 550px;
+    }
+
+    .afs-upnext {
       margin: 15px;
     }
 }
@@ -1290,9 +1355,18 @@ hr {
   .project-summary {
     margin-bottom: 50px;
   }
+}
 
-  /* .work-wrap {
-    height: 2700px;
-  } */
+@media (max-width: 768px) {
+  .brunch-hero img {
+    width: 380px;
+  }
 
+  .h-inn-hero img {
+    width: 450px;
+  }
+
+  .sm-hero img {
+    width: 360px;
+  }
 }
