@@ -3,6 +3,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
+  max-width: 100%;
 }
 
 /* ::selection {
@@ -187,7 +188,7 @@ a:hover {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  width: 100%;
+  max-width: 100%;
   height: 800px;
 }
 
@@ -658,6 +659,7 @@ hr {
 
 .preview-pad {
   padding-top: 50px;
+  padding-left: 50px;
 }
 
 /*Footer styling*/
@@ -772,7 +774,7 @@ hr {
 
 .case-title {
   color: #fff;
-  padding: 0 0 30px 0;
+  padding: 80px 0 30px 0;
 }
 
 .case-category {
@@ -1101,7 +1103,7 @@ hr {
     }
 
     h1 {
-      font-size: 2.7em;
+      font-size: 2.6em;
     }
 
     p {
@@ -1115,15 +1117,18 @@ hr {
     .button-pad {
       margin-right: 15px;
     }
-
+    .preview-pad {
+      padding-left: 20px;
+      padding-top: 40px !important;
+    }
     .name-headline {
-      padding-top: 40px;
+      padding-top: 70px;
     }
     .subhead-hero {
       padding-bottom: 50px;
     }
     .grey-arrow {
-      padding-top: 60px;
+      padding-top: 90px !important;
     }
     .summary {
       margin-top: -50px;
@@ -1146,9 +1151,9 @@ hr {
       height: 350px;
     }
     .brunch-preview img {
-      width: 350px;
+      width: 320px;
       position: absolute;
-      bottom: 20px;
+      bottom: 35px;
       left: 30px;
     }
     hr {
@@ -1156,12 +1161,138 @@ hr {
     }
     .h-inn-preview img {
       width: 460px;
-      left: -15px;
+      left: -35px;
     }
     .h-inn-preview {
       height: 410px;
     }
+    .supply-mgmt-preview img {
+      width: 380px;
+      left: 0;
+      bottom: 40px;
+    }
+
     .pseudo-foot {
       margin-top: 50px;
     }
+
+/*case study mobile smoothing*/
+
+    .afs-hero img {
+      top: 30px;
+      width: 250px;
+    }
+
+    .case-intro-afs {
+      margin-top: 220px;
+      margin-bottom: 50px;
+    }
+
+    .case-title {
+      padding-top: 35px;
+    }
+
+    .wf-screenshot img {
+      width: 350px;
+    }
+
+    .afs-ui-wrap {
+      background-position: center;
+      background-size: 550px;
+      height: 460px;
+    }
+
+    .afs-mobile-wrap {
+      background-position: bottom;
+      background-size: 640px;
+    }
+
+    .arrow-mobile {
+      display: none;
+    }
+
+    .brunch-hero img {
+      width: 360px;
+      right: 30px;
+      top: 30px;
+    }
+
+    .blue-btn-ghost {
+      padding: 12px 25px 12px 25px;
+    }
+
+    .brunch-upnext {
+      margin: 15px;
+    }
+
+    h3 {
+      font-size: 1.8em;
+    }
+
+    .brunch-revised-wrap {
+      background-position: center;
+      height: 440px;
+      background-size: 510px;
+    }
+
+    .h-inn-upnext {
+      margin: 15px;
+    }
+}
+
+/*ipad styling*/
+@media (max-width: 834px) {
+  .grey-arrow {
+    padding: 60px 0 0 0;
+  }
+
+  .bg-wrap {
+    height: 860px;
+  }
+
+  .subhead-hero {
+    padding: 0 0 50px 0;
+  }
+
+  .afs-preview img {
+    left: -70px;
+  }
+
+  .preview-pad {
+    padding-top: 0px;
+  }
+
+  .brunch-preview img {
+    width: 320px;
+    left: 20px;
+    bottom: 55px;
+  }
+
+  .brunch-preview {
+    height: 380px;
+  }
+
+  .h-inn-preview img {
+    width: 430px;
+    left: -25px;
+  }
+
+  .h-inn-preview {
+    height: 380px;
+  }
+
+  .supply-mgmt-preview img {
+    width: 340px;
+    left: 10px;
+    bottom: 70px;
+  }
+
+  .project-summary {
+    margin-bottom: 50px;
+  }
+
+  /* .work-wrap {
+    height: 2700px;
+  } */
+
 }
