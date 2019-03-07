@@ -121,10 +121,6 @@ a:hover {
   line-height: 1.8rem;
 }
 
-.vid-size {
-  width: 600px;
-  height: 328px;
-}
 
 .sm-subhead {
   font-size: 0.8em;
@@ -1180,6 +1176,10 @@ hr {
 
   .sm-hero img {
     width: 360px;
+  }
+
+  .vid-width {
+    width: 440px;
   }
 }
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
