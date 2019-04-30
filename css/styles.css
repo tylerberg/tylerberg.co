@@ -1181,6 +1181,10 @@ hr {
   .vid-width {
     width: 440px;
   }
+
+  .work-wrap {
+    height: 2050px !important;
+  }
 }
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
